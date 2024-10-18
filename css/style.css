@@ -1,0 +1,52 @@
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-icon {
+    height: 50px;
+    width: 50px;
+    background-image: url(https://www.google.com/imgres?q=ferrari%20logo&imgurl=https%3A%2F%2Fstatic.vecteezy.com%2Fsystem%2Fresources%2Fpreviews%2F020%2F500%2F781%2Fnon_2x%2Fferrari-brand-logo-car-symbol-with-name-black-design-italian-automobile-illustration-free-vector.jpg&imgrefurl=https%3A%2F%2Fwww.vecteezy.com%2Fvector-art%2F63779-ferrari-logo&docid=XrUgY63TlYJHhM&tbnid=EIRkD8X3hCU0WM&vet=12ahUKEwjJhPz5-5eJAxUFTGwGHcD7EUkQM3oECHoQAA..i&w=1205&h=980&hcb=2&ved=2ahUKEwjJhPz5-5eJAxUFTGwGHcD7EUkQM3oECHoQAA);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+
+nav {
+    display: flex;
+}
+
+nav>a {
+    border: 1px solid;
+    padding: 8px;
+    text-decoration: none;
+    color: black;
+}
+
+.photo-banner {
+    height: 250px;
+    background-image: url(gradient.jpg);
+    background-size: cover;
+    background-position: top;
+}
+
+.profile-article {
+    height: 300px;
+}
+
+footer>div {
+    text-align: center;
+    font-family: cursive;
+    font-size: small;
+}
+
+div {
+    border: 1px  solid;
+    height: 50px;
+    width: 50px;
+    background-image: url(images.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
